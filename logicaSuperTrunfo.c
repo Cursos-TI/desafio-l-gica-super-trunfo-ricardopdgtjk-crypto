@@ -38,6 +38,44 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+    
+    //carta1
+      char nome_da_cidade[30];
+      int populacao;
+
+printf("Carta 1\n");
+printf("Forneça o nome da cidade:\n");
+
+  scanf(" %s", &nome_da_cidade);
+
+    printf("Forneça a população da cidade:\n");
+
+  scanf("%d", &populacao);
+
+  //carta2
+
+    char nome_da_cidade2[30];
+    int populacao2;
+
+  printf("Carta 2\n");
+printf("Forneça o nome da cidade2:\n");
+
+  scanf(" %s", &nome_da_cidade2);
+
+    printf("Forneça a população da cidade2:\n");
+
+  scanf("%d", &populacao2);
+
+  if (populacao > populacao2){
+    printf ("carta 1 é maior do que a carta 2. \n");
+    { else
+    printf("carta 1 é menor do que a carta 2")}
+  }
+
+
+
+
+}
 
     return 0;
 }
